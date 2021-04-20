@@ -45,7 +45,7 @@ player2_line = pygame.image.load("white.png")
 player2Rect = player2_line.get_rect()
 player2Rect = player2Rect.move(660, 200)
 
-ballSpeed = [0, 0]
+ballSpeed = [1, 1]
 lineSpeed = [0, 2]
 
 
