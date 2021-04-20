@@ -25,7 +25,7 @@ ball = ball.resize((ballWidth, ballHeight))
 ball.save("ball.png")
 ball = pygame.image.load("ball.png")
 ballrect = ball.get_rect()
-ballrect = ballrect.move(350, 200)
+ballrect = ballrect.move(350, 220)
 
 player1_line = Image.open(root + "\\white.png")
 lineWidth = 20
@@ -34,7 +34,7 @@ player1_line = player1_line.resize((lineWidth, lineHeight))
 player1_line.save("line.png")
 player1_line = pygame.image.load("line.png")
 player1Rect = player1_line.get_rect()
-player1Rect = player1Rect.move(20, 20)
+player1Rect = player1Rect.move(20, 200)
 
 player2_line = Image.open(root + "\\white.png")
 lineWidth = 20
@@ -43,9 +43,9 @@ player2_line = player2_line.resize((lineWidth, lineHeight))
 player2_line.save("white.png")
 player2_line = pygame.image.load("white.png")
 player2Rect = player2_line.get_rect()
-player2Rect = player2Rect.move(660, 20)
+player2Rect = player2Rect.move(660, 200)
 
-ballSpeed = [1, 1]
+ballSpeed = [0, 0]
 lineSpeed = [0, 2]
 
 
